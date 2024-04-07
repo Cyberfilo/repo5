@@ -10,9 +10,11 @@
 		BC86AAC92BC2C373002EABF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86AAC82BC2C373002EABF5 /* AppDelegate.swift */; };
 		BC86AACB2BC2C373002EABF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86AACA2BC2C373002EABF5 /* SceneDelegate.swift */; };
 		BC86AACD2BC2C373002EABF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86AACC2BC2C373002EABF5 /* ViewController.swift */; };
-		BC86AAD02BC2C373002EABF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86AACE2BC2C373002EABF5 /* Main.storyboard */; };
-		BC86AAD22BC2C376002EABF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC86AAD12BC2C376002EABF5 /* Assets.xcassets */; };
 		BC86AAD52BC2C376002EABF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86AAD32BC2C376002EABF5 /* LaunchScreen.storyboard */; };
+		BC86AADD2BC2C3A6002EABF5 /* MyImageClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = BC86AADC2BC2C3A6002EABF5 /* MyImageClassifier.mlpackage */; };
+		BC86AADF2BC2C3AE002EABF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86AADE2BC2C3AD002EABF5 /* Main.storyboard */; };
+		BC86AAE12BC2C3BB002EABF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC86AAE02BC2C3BB002EABF5 /* Assets.xcassets */; };
+		BC86AAE32BC2C3CB002EABF5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC86AAE22BC2C3CB002EABF5 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +22,11 @@
 		BC86AAC82BC2C373002EABF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC86AACA2BC2C373002EABF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BC86AACC2BC2C373002EABF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC86AACF2BC2C373002EABF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC86AAD12BC2C376002EABF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC86AAD42BC2C376002EABF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BC86AAD62BC2C376002EABF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC86AADC2BC2C3A6002EABF5 /* MyImageClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MyImageClassifier.mlpackage; sourceTree = "<group>"; };
+		BC86AADE2BC2C3AD002EABF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BC86AAE02BC2C3BB002EABF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../App classificazione 3/App classificazione 3/Assets.xcassets"; sourceTree = "<group>"; };
+		BC86AAE22BC2C3CB002EABF5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../App classificazione 3/App classificazione 3/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +59,14 @@
 		BC86AAC72BC2C373002EABF5 /* app classificazione 4 */ = {
 			isa = PBXGroup;
 			children = (
+				BC86AADC2BC2C3A6002EABF5 /* MyImageClassifier.mlpackage */,
 				BC86AAC82BC2C373002EABF5 /* AppDelegate.swift */,
 				BC86AACA2BC2C373002EABF5 /* SceneDelegate.swift */,
 				BC86AACC2BC2C373002EABF5 /* ViewController.swift */,
-				BC86AACE2BC2C373002EABF5 /* Main.storyboard */,
-				BC86AAD12BC2C376002EABF5 /* Assets.xcassets */,
+				BC86AADE2BC2C3AD002EABF5 /* Main.storyboard */,
+				BC86AAE02BC2C3BB002EABF5 /* Assets.xcassets */,
 				BC86AAD32BC2C376002EABF5 /* LaunchScreen.storyboard */,
-				BC86AAD62BC2C376002EABF5 /* Info.plist */,
+				BC86AAE22BC2C3CB002EABF5 /* Info.plist */,
 			);
 			path = "app classificazione 4";
 			sourceTree = "<group>";
@@ -125,9 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC86AAE32BC2C3CB002EABF5 /* Info.plist in Resources */,
 				BC86AAD52BC2C376002EABF5 /* LaunchScreen.storyboard in Resources */,
-				BC86AAD22BC2C376002EABF5 /* Assets.xcassets in Resources */,
-				BC86AAD02BC2C373002EABF5 /* Main.storyboard in Resources */,
+				BC86AAE12BC2C3BB002EABF5 /* Assets.xcassets in Resources */,
+				BC86AADF2BC2C3AE002EABF5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC86AADD2BC2C3A6002EABF5 /* MyImageClassifier.mlpackage in Sources */,
 				BC86AACD2BC2C373002EABF5 /* ViewController.swift in Sources */,
 				BC86AAC92BC2C373002EABF5 /* AppDelegate.swift in Sources */,
 				BC86AACB2BC2C373002EABF5 /* SceneDelegate.swift in Sources */,
@@ -147,14 +153,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC86AACE2BC2C373002EABF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC86AACF2BC2C373002EABF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BC86AAD32BC2C376002EABF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
