@@ -14,7 +14,6 @@
 		BC86AADD2BC2C3A6002EABF5 /* MyImageClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = BC86AADC2BC2C3A6002EABF5 /* MyImageClassifier.mlpackage */; };
 		BC86AADF2BC2C3AE002EABF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86AADE2BC2C3AD002EABF5 /* Main.storyboard */; };
 		BC86AAE12BC2C3BB002EABF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC86AAE02BC2C3BB002EABF5 /* Assets.xcassets */; };
-		BC86AAE32BC2C3CB002EABF5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC86AAE22BC2C3CB002EABF5 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,7 +128,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC86AAE32BC2C3CB002EABF5 /* Info.plist in Resources */,
 				BC86AAD52BC2C376002EABF5 /* LaunchScreen.storyboard in Resources */,
 				BC86AAE12BC2C3BB002EABF5 /* Assets.xcassets in Resources */,
 				BC86AADF2BC2C3AE002EABF5 /* Main.storyboard in Resources */,
